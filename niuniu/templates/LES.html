@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-transform"/> 
+<meta http-equiv="Cache-Control" content="no-siteapp" /> 
+<title>生活事件量表（LES）</title>
+<style type="text/css">
+    <!--
+
+    /*关键字浮层*/
+    .over{background-color:#B7DDA9;}
+    .out{background-color:'';}
+
+    .a-tips-Article-QQ:link {color:#66CCFF;border-bottom:1px dotted #0781C7;text-decoration:none}
+    .a-tips-Article-QQ:hover {color:#66CCFF;background:#EBF2FA;text-decoration:none}
+    .a-tips-Article-QQ:visited {color:#66CCFF;border-bottom:1px dotted #0781C7;text-decoration:none}
+
+    /*浮动end*/
+    .STYLE1 {font-family: "微软雅黑"}
+    .STYLE2 {font-size: 15px}
+    .style123w{
+      height:100%;
+      border: 1px #CCC solid;
+      padding: 8px;
+      margin: 0 auto;
+      font-size:16px;
+      line-height:1.8;
+      font-family:"微软雅黑"
+    }
+  -->
+</style>
+<script type="text/javascript">
+function getIEVer() { 
+var ua = navigator.userAgent; //获取用户端信息 
+var b = ua.indexOf("MSIE "); //检测特殊字符串"MSIE "的位置 
+if (b < 0) {    return 0;  }  
+return parseFloat(ua.substring(b + 5, ua.indexOf(";", b))); 
+//
+} 
+if (getIEVer()==0){
+
+ //document.write("您正在用webkit内核浏览器（firefox、chrome或其他）,这样可能导致显示不正常,请尽量使用IE浏览器！");displayMode="table-row"} else {
+
+// document.write("浏览器版本：IE"+getIEVer()+"(正常体验)"); displayMode=""
+}
+</script>
+
+<script Language="JavaScript">
+  function linkTo(y)
+  {
+
+    window.location.hash=y
+  }
+
+function form_check(){
+   var a = document.getElementsByTagName("INPUT");
+   var b = document.getElementsByTagName("STRONG");
+   for(var i=0; i<a.length; i++)
+   {
+    var tmpStr;
+
+    tmpStr = a[i].name;
+
+    tmpjuanbiao=tmpStr+"juanbiao"
+    if(a[i].type=="radio" && eval("document.form1."+tmpStr+"[0].checked") == false && eval("document.form1."+tmpStr+"[1].checked") == false  && eval("document.form1."+tmpStr+"[2].checked") == false)
+    { 
+      alert("问题'"+tmpStr+"'没有选择");
+      linkTo(tmpjuanbiao);
+      return false;
+    }
+  }
+}
+</script>
+
+</head>
+
+<body>
+<table style="width:771px;margin :  5px 0px 15px 5px;margin-left:auto;margin-right:auto"align="center">
+<tr><td>
+      <div class="style123w" style=" width:771px;border-top:0px;" >
+      <br /><h2 align="center">生活事件量表（LES）</h2><br />
+      <div style="padding:10px;">
+       <table style="FLOAT: left; MARGIN: 0px 25px 10px 0px" width="160" bgcolor="#dddddd" cellpadding="0" cellspacing="5"></table>
+       <p><strong>生活事件量表（LES）</strong>本量表所提出的问题是每个人都有可能遇到的一些日常生活事件，究竟是好事还是坏事，可根据个人情况以及自身的实际感受自行判断。这些事件可能对个人有精神上的影响（体验为紧张、压力、兴奋或苦恼等），影响的轻重程度是各不相同的。影响持续的时间也不一样。请您根据自己的情况，实事求是地回答下列问题，请选择您认为最合适的答案，并填写在相应位置上。</p>
+       <form  name="16pf"  action="" method="post"   onSubmit="return form_check();">
+        <hr>
+		<p><b>指导语：</b></p>
+		<p> 每个事件都要回答四个问题，要求您在每个问题中选择一个答案，并在相应的位置上打钩，请您逐一回答。在“事件发生时间”的问题中,如果选择“未发生”，则后三个问题不需再答；此外还分为“一过性”事件和“长期性”事件，请仔细判别后再进行选择。</p><hr>
+        <span class="style1">
+          <table width="95%"  border="0" cellpadding="0" cellspacing="0" align="center">
+            <tr><td > <a name="answer1juanbiao"></a>
+             <span class="style1"> <strong >1.我很明了本测试的说明：</strong>
+              <br><br>
+              <label    for="11"><input type="radio" name="answer1" value="0"  id="11"   >A.是的</label><br />
+              <label    for="12"><input type="radio" name="answer1" value="1"  id="12" >B.不一定</label><br />
+              <label    for="13"><input type="radio" name="answer1" value="2"  id="13" >C.不是的</label>
+              <br><br>
+
+            </span>
+          </td>  </tr>
+
+
+
+</table>
+</span>
+<p align="center">  <input type="submit" name="Submit" class="blue button" value="  提　　交　"></p>
+</form>
+</div></div>
+<br />
+<br />
+<br />
+<br />
+</td></tr></table>
+</body>
+</html>

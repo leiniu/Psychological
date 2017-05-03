@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Cache-Control" content="no-transform"/> 
+  <meta http-equiv="Cache-Control" content="no-siteapp" /> 
+  <title>SAS焦虑自评量表</title>
+  <script language="JavaScript">function linkTo(y) {
+
+        window.location.hash = y
+      }
+
+      function form_check() {
+        var a = document.getElementsByTagName("INPUT");
+        var b = document.getElementsByTagName("STRONG");
+        for (var i = 0; i < a.length; i++) {
+          var tmpStr;
+
+          tmpStr = a[i].name;
+
+          tmpjuanbiao = tmpStr + "juanbiao"
+          if (a[i].type == "radio" && eval("document.form1." + tmpStr + "[0].checked") == false && eval("document.form1." + tmpStr + "[1].checked") == false && eval("document.form1." + tmpStr + "[2].checked") == false && eval("document.form1." + tmpStr + "[3].checked") == false) {
+            alert("问题'" + tmpStr.substring(1) + "'没有选择");
+            linkTo(tmpjuanbiao);
+            return false;
+          }
+        }
+      }</script>
+</head>
+<style type="text/css">
+  <!--
+
+  /*关键字浮层*/
+  .over{background-color:#B7DDA9;}
+  .out{background-color:'';}
+
+  .a-tips-Article-QQ:link {color:#66CCFF;border-bottom:1px dotted #0781C7;text-decoration:none}
+  .a-tips-Article-QQ:hover {color:#66CCFF;background:#EBF2FA;text-decoration:none}
+  .a-tips-Article-QQ:visited {color:#66CCFF;border-bottom:1px dotted #0781C7;text-decoration:none}
+
+  /*浮动end*/
+  .STYLE1 {font-family: "微软雅黑"}
+  .STYLE2 {font-size: 15px}
+  .style123w{ 
+    height:100%;
+    border: 1px #CCC solid;	
+    padding: 8px;
+    margin: 0 auto;
+    font-size:16px;
+    line-height:1.8;
+    font-family:"微软雅黑"
+  }
+-->
+</style>
+
+
+<body>
+  <table style="width:771px;margin :  5px 0px 15px 5px;margin-left:auto;margin-right:auto"align="center"><tr><td>
+    <div class="style123w" style=" width:771px;border-top:0px;" >
+      <br/><h2 align="center">SAS焦虑自评量表</h2><br />
+      <div style="padding:10px;">
+        <p ><strong>SAS焦虑自评量表</strong>是由W.K.Zung编制于1965年。本量表含有20个反映抑郁主观感受的项目，每个项目按症状出现的频度分为四级评分，其中10个为正向评分，10个为反向评分。</p>
+        <p>本量表可以评定抑郁症状的轻重程度及其在治疗中的变化，特别适用于发现抑郁症病人。其评定对象为具有抑郁症状的成年人。</p> 
+         <hr><p><b>指导语：</b></p><p>下面有20条测验项目，列出了有些人可能会有的问题，请仔细地阅读每一条，然后根据最近一星期以内，您的实际感觉，选择适合的答案，请注意不要漏题。</p>
+<form  name="form1"  action="/sas-result" method="get" onSubmit="return form_check();">
+<hr>
+<span class="style1">
+<table width="95%"  border="0" cellpadding="0" cellspacing="0" align="center"><!--DWLayoutTable-->
+<TR>
+    <TD><a name="c1juanbiao"></a><SPAN class="style1"><strong>1、我觉得比平常容易紧张和着急。</strong><BR>
+      <label><INPUT name=c1 value=1 type=radio>没有或很少时间。</label><BR>
+      <label><INPUT name=c1 value=2 type=radio>小部分时间。</label><BR>
+      <label><INPUT name=c1 value=3 type=radio>相当多时间。</label><BR>
+      <label><INPUT name=c1 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD><a name="c2juanbiao"></a><SPAN  class="style1"><strong>2、我无缘无故地感到害怕</strong><BR>
+      <label><INPUT name=c2 value=4 type=radio>没有或很少时间。</label><BR>
+      <label><INPUT name=c2 value=3 type=radio>小部分时间。</label><BR>
+      <label><INPUT name=c2 value=2 type=radio>相当多时间。</label><BR>
+      <label><INPUT name=c2 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD><a name="c3juanbiao"></a><SPAN sclass="style1"><strong>3、我容易心里烦乱或觉得惊慌。</strong><BR>
+      <label><INPUT name=c3 value=1 type=radio>没有或很少时间。</label><BR>
+      <label><INPUT name=c3 value=2 type=radio>小部分时间。</label><BR>
+      <label><INPUT name=c3 value=3 type=radio>相当多时间。</label><BR>
+      <label><INPUT name=c3 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD><a name="c4juanbiao"></a><SPAN class="style1"><strong>4、我觉得我可能将要发疯。</strong><BR>
+      <label><INPUT name=c4 value=1 type=radio>没有或很少时间。</label><BR>
+      <label><INPUT name=c4 value=2 type=radio>小部分时间。</label><BR>
+      <label><INPUT name=c4 value=3 type=radio>相当多时间。</label><BR>
+      <label><INPUT name=c4 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c5juanbiao"></a><SPAN class="style1"><strong>5、我觉得一切都很好，也不会发生什么不幸。</strong><BR>
+    <label><INPUT name=c5 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c5 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c5 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c5 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c6juanbiao"></a><SPAN class="style1"><strong>6、我手脚发抖打颤。</strong><BR>
+    <label><INPUT name=c6 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c6 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c6 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c6 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c7juanbiao"></a><SPAN class="style1"><strong>7、我因为头痛、头颈痛和背痛而苦恼。</strong><BR>
+    <label><INPUT name=c7 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c7 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c7 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c7 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c8juanbiao"></a><SPAN class="style1"><strong>8、我感觉容易衰弱和疲乏。</strong><BR>
+    <label><INPUT name=c8 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c8 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c8 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c8 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c9juanbiao"></a><SPAN class="style1"><strong>9、我觉得心平气和，并且容易安静地坐着。</strong><BR>
+    <label><INPUT name=c9 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c9 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c9 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c9 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c10juanbiao"></a><SPAN class="style1"><strong>10、我觉得心跳得很快。</strong><BR>
+    <label><INPUT name=c10 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c10 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c10 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c10 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c11juanbiao"></a><SPAN class="style1"><strong>11、我因为一阵阵头晕而苦恼。</strong><BR>
+    <label><INPUT name=c11 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c11 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c11 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c11 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c12juanbiao"></a><SPAN class="style1"><strong>12、我有晕倒发作，或觉得要晕倒似的。</strong><BR>
+    <label><INPUT name=c12 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c12 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c12 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c12 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c13juanbiao"></a><SPAN class="style1"><strong>13、我吸气呼气都感到很容易。</strong><BR>
+    <label><INPUT name=c13 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c13 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c13 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c13 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c14juanbiao"></a><SPAN class="style1"><strong>14、我手脚麻木和刺痛。</strong><BR>
+    <label><INPUT name=c14 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c14 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c14 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c14 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c15juanbiao"></a><SPAN class="style1"><strong>15、我因为胃痛和消化不良而苦恼。</strong><BR>
+    <label><INPUT name=c15 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c15 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c15 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c15 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c16juanbiao"></a><SPAN class="style1"><strong>16、我常常要小便。</strong><BR>
+    <label><INPUT name=c16 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c16 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c16 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c16 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c17juanbiao"></a><SPAN class="style1"><strong>17、我的手常常是干燥温暖的。</strong><BR>
+    <label><INPUT name=c17 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c17 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c17 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c17 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c18juanbiao"></a><SPAN class="style1"><strong>18、我脸红发热。</strong><BR>
+    <label><INPUT name=c18 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c18 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c18 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c18 value=1 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c19juanbiao"></a><SPAN class="style1"><strong>19、我容易入睡并且一夜睡得很好。</strong><BR>
+    <label><INPUT name=c19 value=1 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c19 value=2 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c19 value=3 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c19 value=4 type=radio>绝大部分或全部时间。</label></SPAN></TD></TR>
+  <TR>
+    <TD ><a name="c20juanbiao"></a><SPAN class="style1"><strong>20、我作恶梦。</strong><BR>
+    <label><INPUT name=c20 value=4 type=radio>没有或很少时间。</label><BR>
+    <label><INPUT name=c20 value=3 type=radio>小部分时间。</label><BR>
+    <label><INPUT name=c20 value=2 type=radio>相当多时间。</label><BR>
+    <label><INPUT name=c20 value=1 type=radio>绝大部分或全部时间。</label>
+    </SPAN><BR></TD></TR>
+
+</table>
+</span>
+<p align="center"><input type="submit" name="Submit" class="blue button" value="  提　交  "></p>
+
+</form>
+</td></tr></table>
+
+</body>
+</html>
